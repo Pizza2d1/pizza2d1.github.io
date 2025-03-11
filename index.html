@@ -1,1 +1,189 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELA SLCC Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .content {
+            display: none;
+            margin-top: 20px;
+        }
+        .content.active {
+            display: block;
+        }
+        .button {
+            border: none;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+
+        .bgreen {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #04AA6D;
+        }
+        .bgreen:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .bblue {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #3166c9;
+        }
+        .bblue:hover {
+            background-color: #3166c9;
+            color: white;
+        }
+
+        .bred {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #d30f0f;
+        }
+        .bred:hover {
+            background-color: #d30f0f;
+            color: white;
+        }
+
+        .borange {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #d30f0f;
+        }
+        .borange:hover {
+            background-color: #d30f0f;
+            color: white;
+        }
+
+        .bblack {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #000000;
+        }
+        .bblack:hover {
+            background-color: #000000;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>SLCC's STEM Resources</h1>
+    <div>
+        <button class="button bgreen" onclick="showContent('content1')">Math</button>
+        <button class="button bblue" onclick="showContent('content2')">Biology</button>
+        <button class="button bred" onclick="showContent('content3')">Chemistry</button>
+        <button class="button borange" onclick="showContent('content4')">Physics</button>
+        <button class="button bblack" onclick="showContent('content5')">Tutoring</button>
+    </div>
+
+    <div id="cat" class="content">
+        <h2>Select the area that you would like to learn about</h2>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEBMVFhUVFxUWFRUVFRcVFxUVFhYXFhUXFhUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0dHR0tKy0rLSsrLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLSstLS0tLS0tKy0yK//AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYBBwj/xAA8EAABAwIEAwUFBgUEAwAAAAABAAIRAwQSITFBBVFhBiJxgZETMqGx8AdCYsHR4RQjUnLxFjOCkhWy4v/EABgBAAMBAQAAAAAAAAAAAAAAAAABAgME/8QAHxEBAQEBAAIDAQEBAAAAAAAAAAERAhIhAzFBE1Fh/9oADAMBAAIRAxEAPwDIBqeGp4anBq3QaGp4anAJ7WoBoanYU8NTg1Bo8KWFSBq7hQEJamFqIc1MLUBDhUNViMDVHUYgKyqxNaETWaoAhKSmFaWOqraasbIpxNewdiq+KiANRqtZS0WC7AV+45o94GfELd0Tkl8sL4qlSXJQ17eCm0k7LGTW1og1ADErqxtLixfUk85b0C2NM5BFg9/rqS6kkbi4upII0pqkKaVUKwwlcJToC4YTTUcrhIXSmOIVRFQ1YQFSJBRz3BCVC3notp6jK/aZui4utSWLV4CE8KIFPBVtErVI0KJpUrSgJA1dAXAU4IDoanYUmp6DRlqjc1EEKNwQEIC5UapISqICsuAhN0bdKvJzUpoqnG/p+6sbSsQcsvDL46qqpEeKPt6nknCr0LsVdkVYJOYynnkvRretK8h4DXIc0z8V6jw2viaCdVXWWM+dnSzfVACx/GOJio80xoNepVx2g4kKVMmc4y8VkKduXYXjfXz67jksOvU9On45Ldv4KoUTiEdfkt5Y1MVNp5gfJZ7h1jn4QR1C0Fo3CMPLRGZBetohJclKVIdShclKUAlwrsriZGlNKeuFPSxE4KGoESQm4FXkm8gXMUD6CtDTTfZJ+dT/ADCtp5JIzAkp1Xi+bQU4FRAp4K0NMCpGlQhPCDidrk8OUIUjSgJmlPBUbXn6ATw/nHogzpXHEdSuzyAKic5vUfFGh3E3r8CuPaD7rh4Hu/PJRvYdR3h0/TVC1HoCK/YW6iFVVKkFWzLgkFhzGzXZjy5eSqa1AOJFOcQ1pnMn+w/fEba+OqVTT6T1YUHKqtgSvQOyPZv2wGPTcpyai3EXAabnOAA3C9W4Y0tYMSEtOztGlBaMxujLp0N1EI66mYOebuqTtF/NloziNNR16hScL4eWgZyCI8x8iutuqQPvCeROasrXidLbzCzlm+2uWTIhbdOY7MdFa29+0+ar7mq1/u/RTqFu0HPyEp6WLttQHdcfUhCNqgLvtcWoU4E5uAkLgc0PeWHtGEBxB2hZvi3D7ihRNRry4tEkaTzVSSpvXUa4Vgnh6834X2le8STkNzvyhX9rxgndV/NP9WrldVRbcRnVWNGtKi8WLncqZKF0LhClTkLibiXMaAkSUWNJAfNLQpGtU7aSmZRW6A7WKRtNFMpKVtJACtplSNpIttJSsooPQjaKk9gjmUVJ7JB6rPYp3s+YlWPsU7+HQaqNnObTn6HyXH0CffbP4hk7/wCvNW3sByT8IiC2fNImWueHvHeZ3gNwNP7ht8kBeWRdDw0yOi1le2EzTe5pHr8DmPJD0LQ1HRLcX4TAP/Aw5p8o8EFQHBuHGs4Yh3/6/wCr+/8AF+L1nVewcCsxRpgRmsx2Y4aWu7w05rV1q4aM0urkwuZt0U6sTmh7h8jp6oU3kmEmvnOf25ysmsjz37Q+GvdWpPbUNOmQ7vNyioNjyyQfBeNPcTQqumqwd140e3Y/Fei3toyqx9Ko0Oa6Q4c/A7HJeeHsq6nfUG0cTqbXFznkGWsj3HOAg5xB8VP6tp7PjJaAzOTrnq7IHP1VtacXJ5b68gJH11VbU4OQS6OURv5b7Iplm5rc8uXTPXrCZelzQvJiZJ2GnirClXETussyvhdOwETp4fMD1VpaVcxizIjw+sk5U2NLbVZghT1A2o0tcJByIO6qad6GxiyTjeiQRoRr8k0qHtn2dphhqN7uAd1jd3chynJY+04i+k9tNzXHutJcGnCHkS5oO4Gk7r1l8VGx8+a817V9j69RxcTUfnIwGMPgDkt+LszWHfONDY3GIAhXVncHdef9leG31I4alMlswHEtEjYkTktvDW++9rT1Kd/6mT/GgoVZRCztvxegDBrNnZXNvctdoQVh1P8AG/N/1M+mChqrSEWHJObKlSuxpKR1vmuqkvAWqVhQrXqVjlqQxilahGuUrXJgU0qVhQjXKZrkgLa5OBQwcn4kGJB8F3zHqh2vXfaINOR9SEg08ioHPXA/wQKZdU/EeShoNIIOTum/qin1vH1hWvAbH2jsThl1zQmr/g1SKcuB88/igbyqXk4Seo+tUfeOFNsBU1hxL+Z3AJ9JWPV9teZ6HUbCsO80gjkDJH6+CtbOyjUmddDKpaN7Te44sdF+Y1IDuoJyVxb3FSIfBjRwiT49fBSfsWbcjTLXQZn9EmW55eJOawH2kccuKApuovIDiGPAyJDiNDsZ+a52Y7aljQyuS6DkTyy1Kqeysr0WrYk5g+RGqgurWddPGOf15o63uWvYHNOREhQ3lUADqQPOUFGVvpHuiTI1zz5nz+Z01DeH37WgucYz35nc7bD/ACUJ2q7Z21q6H03uJMd0DKIMztmsm3ttbVHd5tSmNnEAgfp4qaue3o1Eit70ETAOecGPL90XXoGARJI0Ag/mFmuC34IBpVQ5u0GcyN/Jaq374zGL1HngJTibMQUuImn3XanbP90YOJOPXpuqO/DGHdpzJDgQD0Eb9QdlXVq5AlsObuJMg/in5p+WF46kveI1HPMVDhnISRHTqhXW7nZ4ifPNRMuxUdhqiH/ddueTXHc8j5dVMyWGASPPI+CjqtueMSU+7q0+f1mtD2arNNQARMHmDHURCphWyl2Y5j9FfcFosax1UBzXOGETMnmQ360VfH7rP5fU9ro3YBj68kSy5lYevxUU3lhJI1BIjXki6PHW5Zre8OWd1r/ahJZ0cWC4p8D83irXKZjkIxHW9IlUtIwqYKSnYuOgVpb8GeRomWqpqmaVe0Ozx3Uv+nikNUbAnYSr6jwQgop/Ap0CBrNYCmlxWm/8E6NFXXXBKg2QeqeVIxsqf+AeNQi7G0LnAEJjUFGyc4gBbDh1r7JnVGWnDmMaDGaGu6hGiz7quPav4m+QZVBbAYpBiNQMvktJUsalUQBHVV7uzzqUu96RtqDy6+Kxag7riOHIw9p6Q5o8SjuGXeQ5bA7cgJJWdvbCocsRaDp9fsoa9nXYwltU6ZjIgQNJj0QrB32m1mut6RaCHCoO7z7piPOFkKXZq+qMY6kDSEl0uyL9I7usaplvWrGuz2ziQ0ggHYZwRz1XqtjeYgGuzMd3w0VamzA/ZO4uQG0q9MMLRqHYmkTlHXotRWaZBiYM6/WaradYNjEeocdB0JVgapjMQYOUz/kI1OKS9tWPc8OAIf7wc0EEa/L6yWY4/wBmKnsy22NPaW1MpaDmA/MGfxR4rW1Hgv1G/hHOD805lAQPr46xKjrmdZv4vnq87n68svOE1LCK9rTuC+W46BozSc0gl+F7HOGToGkZ9F6N2a4o2rTD8JbkJa4EOY7UhzT8CMirFtLD4b55HXP4pjLEF2MCDHhKc9FUXHKbsMt8wDqOg0IWS/i3MdM5Z5GACOXIha/j1Mhgc2eRg/qvO+J3lQuIDQc+k+aKfEG8QriAfuu907jp5Lo4hLQTMO0PJ4yPrkfMoP2TsGF+r82t5Eaq54R2NuDSc6ucNOcQaDLnAD4Kcta+fPM2ouCVKtaoGN91udRx93DyIOsq07RceY8eyYAWNEN3zG4OywfHe1oFN1GzOCnoSMnnPvBwOYBE9Uzht5iYM10/Hx/OZ+uP5vk/rd/FxUvHGAXEgaAkmPAbKa3vSN1TvqrgrK9ZY1DeJHmks2LpJAxoLPsxzV1Z9n2t2VvSqtC5Vv2hTsVlcpcNaNgi6dFoVXV4wEK7jM6JXtU5aVsJ7YKztjxMvMK8o1gNUeQwZTtgimW4QQ4g3YrrOIpXo/FYCiFHUtgdlyndArj7oBLyHiFrcMadkMbJjM4RNe+VHxDiJOSV7Ocia145zgxm6Kp2Ef7jh5ITg7Q1pqOGZMD9Ua6oddvio3V5gr2rQIEQuF0qvNR05afH0RNFpCDxK+1ZUye0GN4WU4/YNt3NY0E06kwXZ4HcsXIz+S2VEQm31myoMFQSDn4EaEdUCXK8wvuDteyZ7zZPLC90+uyKsL8Q2mfeYA1w6ZDF4T81b8UtX0iaZyAgh0ZOZoM+ekqk4pw3DUFWkY0Do+8Mpn0SafbQYxh72dP7xmS0yNfrYqxo1YApvLcRkUn55idNfD0VRZVcTXOYAcu+w6OHMcsoRltTIGHN9InIH3qZOwO4B/JNNjkd9wcCC0nXfL3hzB6Ka2fz8jz8Dv8AsleNluEGXNOWxiFFa1tiPHKEEt2N6a/BOYwDRCUK/PPkiqhylBJGU8VMh2aob3grBL2tEmfVaG3HdSqW+JsdUFuMr2e7MGpXFW6zwe40e75816FUpjDChsLfCOqJcj6Fvl9vmT7TuC/w19UAEMqfzGf8pxDycD6hV/Abj7q9M+3jhs06FcDNj3MJ/C9s/wDsweq8j4e/C9bb+smofUUftFyJCaWpg/2qSZhXUFj0l131Q7606qjN8VNSuSVz+Wt5zi0c5pU1raAqvpUiTKurXIIlFHW7GMCbcVsWQKaKM6lROpwck7Skcp27gZlWFF3NBi4LU9l406JGsG3mHVSOuAd1UVK4c0qt/j4GZ0Roxc3d11VMahdUhu6huroFsgpvZgOfWE5gd4noP3hLTzGxeIDWzEAZ9d1FjIyDh1K7UpuJmcuSiqUhlIPkUwkp1Ms/UIltcQgWvPJdJJHIygLq0rAjqiJlVdDuwVY036BMqF7RBnsS5/3dOcnLLqsVaXgccMHPnG8+Svu3VRx9nTHuCajvEZNn0cVlqVYTLdIzSqufpb07QgY2GDvHKf3RTLp7AJM8z+fwKr6HECWgOPJTuqg5DPKECpnVyZmMtxy5+CjqVNXHlt9fWiqantBDmas2PIaj0g+TuasbMh7cQGWhG43IHMb/AOEwsbV0kcx8Rr5q0aMtFX2dsZEmY0P1orWMkJtS0Ww1F0WSQoaDZR9KlCaU6RTJSLkiYf7XLbHw+r+Esd/1cD+q+fS2HBfR/wBobZsq4P8AQV883dOM1vxN5ZdXOmltacsBXXUEuFXA9kFMawS1phgt0lIKwSTSmoiTmrqxY1ZqlckK74WS5csdFaCmzkiaZCGpA7KTAd1SRYeFFVchHVSFFUvSNkBLXu8Hghbq8YyHbFVXE7vXqqelxhpBpP8AKVOqxfVuK4DjaZYfghr25EFzTkc1Q0bvCHU9eSJ4ViqtLHCOoQa34cHXADKcd7kRlzlbzhfD2W9IMbmfvO3J/RZ7sdwRtGas9BEecwtBUrA7wE4miRUG6a6o3mEI6ryzUbjI0lM8TV7sMMHMFNewvIIMKvuKbXe8D4gqa3JkBpJCZLgVoaMWoRdk6cyqwtxEDkg+1fG2WtCHPwudkDvG8JDFF2/7X0qlUWlIzH+44HlmG+APxAWc4XfEBwOcfkYWarWlKrU9pSrAukmCc3eu6Ootex4J91zdRmErVcttRd/LxAZ8uiVhdAkYeennmgOEXHdiZBATqtsWkuZyJjnH5papq7OhJ8fn9FT0bXAZbodR8/P9EDwPiUtEicpCuvaA5jQ/4P5KozqSlU2+iiqRkwgXOgCNswrjhVPFmriLcHWtGAiCU6E10IpGyuErqY9yWUay32g1YtKvVseuS8K4lS7q9y7a8LrXNPBSIGYJmdBnsvLuOdj79rTFAv8A7CD8CQV1fFk4uub5NvcxnuH3MMhSm5VfVsLiiIrUKtON303tH/YiD5FQCvOhWGulcC8SVR7VJGljT2wBOa1PC6YAWYsiFqOHMJGSxarigeS7Uc7bROo04CVRx6pkCq1Sgbu5hFViqu7eANkjVXF6mISPNZatQDjm6OS0F/XGxVZwy3L6ogTzGZ+QSMdwvh73kYRiG5WptbSnTEEAHfdENd7NgGQy0aIQ3DvaVamWTRqfrdJTW0TFNoAjLc5pzdOaY4ZADQAKPHKpLtak07uHUFQi2LQYeTPNMfTM4mvzGoyPwUNepiyxQeuiYCPuHg4IOe6sOC1HycY81ma9jWFTEawI2C0lg4w0dMyg102oGB1R+TQJ9F5f2g4l7e4NW5a00wIpsJBDQNPM81q+3d45ls1jfvOE/wBozK82/wDDvrlzyYBk5ZaAx55QlRIv7a2ouaKlKm2dBh7jgTIGe4+s12gbphdjoMePu556aDCMwshY3VW2eQ8EtIIg5Ty/yrL/AFTVA93U5nXTLlygeSWDyaRlBwh4o1WHIkQHNjLceaJt759Md4YgSTyPlsgeA9og/IvAcdS6TMn+kkdd1qaZD+7Uc14OhET4ow9RMqNbhdTnMz6q7oVpA8fUKtZw9v8AUCORifUIi2tS33SYnT4Kom1fWzJIhaOzpYW/XJUHCKBmZWmnJa5kc9u0O9ziUg07lJ71C6t1V4nUrj1UMSozVnRS05U1UPbTKlFNPY1SQpUhNPmAqbinZWxuP9+1ouP9WDC/ye2HD1V+QonNQVYKr9kfDSSQbhg/pbWBA8C5pPqSkt1gSTyDXzraugrXcFrCAsNYUiT3lt+BWsNBOixjVemtuUNVu+hnoVK8SNYHggqlADUkplEF1cuznyn9lTXtweUg/WSsblo/yqLiQIGW2wSWq7qsJgAyNspB9Fc8AfhBIiRrmTHTlPVZaq8k56/UStHDaFAMGRIlx5nklRPty6v3VHwCYnr9Farh3cpePWVkeDAFwMan16fmtN7bPCkqr5lTujcxoFD7Uz9FQNqmI5j0UVE4dQc9YTSMrubqHYXIN1wTONuIbEZH0XaxnSRHNUfFrsDImDpKNVjlyWl4A03zWi4S/FAEho57rF0mmRiOU/40Wit7zBRqPAktYXTtOwEoCt7a8cxPLGNxBoI13y/dZo8dcDDZaAYzGJpAAEmMweoQNa5NQl+LvSDJMx+qLtr4Ehr8P/IZnq06FBasbe/pViBXDcswZnY5H8j0R7uFUHzh7ojUxqOW3XzVFT4fRqOdALSc8HWdtoOqPtuD90ezflPMiBpBHMIMRR7OtDhgcD+enr+6mqcNbSIeM2GMQzEZ6qe2AEB3vN3nrrkirio1zS0nXQplRljZNyqW9U8yxxkeXJaThlziMOGY1WH4dbkuimHYhkcIJW54PwiqYdUABG5OfwWnEZ91rLKkNQia1VDUXBojVOFYclrbNYTmmPc46BcbauOqnbWlLGVN6VOSp2oGpRDWgaKDGkHqTFBOCga9SByMPT0wp0ppRCpiSUpKifN/DqJc4DKCvQbemIA2A9UkljGtK5uw3IDyCprvipGjfXZJJFEAVeLN+83lpP1qobvvDunXTL0M+qSSSlBU7rxI3k/kp+JXGbWnMnMpJJU4L4RW7xO4yCuKVeDOs5eh/VJJI1nbXEy46ZlDU79uI4tJyiZ89kkkwbecT0Gkzz2VLe12yJggyYAO3ikkgxNCozPIy2DPKVa0Kk0nd0QWnI7kiIPRJJMnnBaGvIGkmJG3Io2m4jPJzRqCB6hJJKgcyk0w8Etc0ZEctlOysWiXOzG4GqSSIKP4VRq1ScGU5Ak/Farg/Y5uTqzi8jaYHoF1JXE2tlZWLKYhrQPAI0NKSSpDoan4VxJMncCe0nf1SSQRxBTYSSTScApWlcSTCTEkXJJIBuJJJJMn/9k=" width="550" height="366">
+    </div>
+
+    <div id="content1" class="content"> <!-- Math Section -->
+        <h2 style="color:green; font-size: 40px;">Math</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAkCaGKSop_0UTWEULrpq-lgUuvsfGY3AjXA&s" height="336" width="598">
+        <h3><u>SLCC has many online resources that are free to access to help students with any problems they might have with Math</u></h3>
+        <ul style="text-align: left;">
+            <li><a href="https://www.math.utah.edu/lectures/" rel="noopener" target="_blank">University of Utah</a>&nbsp;- online math lectures</li>
+            <li><a href="http://www.mathispower4u.com/" rel="noopener" target="_blank">How to Use a Graphing Calculator</a>&nbsp;- Learn how to use your graphing calculator</li>
+            <li><a href="http://tutorial.math.lamar.edu/" rel="noopener" target="_blank">Lamar University</a>&nbsp;- Paul’s Online Math Notes</li>
+            <li><a href="http://www.calculus.org/" rel="noopener" target="_blank">Calculus.org</a>&nbsp;- Multiple calculus resources, sample problems, links, and explanations</li>
+            <li><a href="https://www.cuesta.edu/student/resources/ssc/mathHelp.html" rel="noopener" target="_blank">Cuesta College</a>&nbsp;- Suggestions to Students for Improving Math Study Skills</li>
+            <li><a href="https://www.youtube.com/watch?v=HflALiqXJDo" rel="noopener" target="_blank">PatrickJMT's Math Channel</a>&nbsp;- Just Math Tutorials</li>
+            <li><a href="https://www.purplemath.com/" rel="noopener" target="_blank">PurpleMath</a>&nbsp;- Free online math lessons and learning forums</li>
+            <li><a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__edready.org_home&amp;d=DwMFaQ&amp;c=6vQd5SVdDrdCy9NFHHwAXw&amp;r=Vz8J149DJ7Emv7XuFtf_t3eD2o2WrnwqjDEYZgyYv10&amp;m=pLEIQzV6H9JfMgQDlAvFPwJFfKHT4owAMKe_urTZOG0&amp;s=y4vO32M93NpsuAt3K7lz0fINP2-MLk-JPLbPAFV5bzM&amp;e=" rel="noopener" target="_blank">EdReady</a>&nbsp;- Assess your readiness for college math through a short self-assessment to determine what you know, what you should study and what you might be able to skip</li>
+            <li><a href="https://www.kaltura.com/index.php/extwidget/preview/partner_id/1540181/uiconf_id/16379291/entry_id/1_0z5wad4v/embed/iframe" rel="noopener" target="_blank">SLCC - Foundational Mathematics</a></li>
+            <li><a href="https://www.khanacademy.org/math" rel="noopener" target="_blank">Khan Academy - Mathematics</a></li>
+            <li><a href="https://www.shawnahaider.com/videos" rel="noopener" target="_blank">SLCC Faculty Math Videos - Shawna Haider Math topics.</a></li>
+        </ul>
+    </div>
+
+    <div id="content2" class="content"> <!-- Biology Section -->
+        <h2 style="color:blue; font-size: 40px;">Biology</h2>
+        <img src="https://www.science.edu/acellus/wp-content/uploads/2016/12/Biology-Gen-Honors-720x380.jpg" height="380" width="720">
+        <h3><u>SLCC provides labratory space named InnovaBio for students and procturs to use to learn about the different areas of STEM</u></h3>
+        <ul style="text-align: left;">
+            <li><a href="https://slccanatomy.com/" rel="noopener" target="_blank">SLCC Anatomy (BIOL 2325)</a></li>
+            <li><a href="https://www.butte.edu/cas/tipsheets/studystrategies/studybio.html" rel="noopener" target="_blank">Butte College</a> - Study Tips for Biology Classes</li>
+            <li><a href="https://www.wikihow.com/Study-for-Biology" rel="noopener" target="_blank">How to Study for Biology</a></li>
+            <li><a href="https://www.goconqr.com/en/examtime/blog/how-to-study-biology/" rel="noopener" target="_blank">5 Study Techniques to Master Biology</a></li>
+            <li><a href="https://owlcation.com/academia/How-to-Study-for-Biology" rel="noopener" target="_blank">How to Study for Biology: Tips From a Teacher</a></li>
+            <li><a href="https://serendipstudio.org/biology/" rel="noopener" target="_blank">Serendip Studio - Links to a number of sites with information relevant to introductory biology courses</a></li>
+            <li><a href="http://www.cellsalive.com/" rel="noopener" target="_blank">Cells Alive!</a>&nbsp;- Largely a photo, drawing, and animation site with descriptions of biological processes</li>
+            <li><a href="https://minoritynurse.com/7-habits-of-highly-effective-nursing-students/" rel="noopener" target="_blank">7 Habits of Highly Effective Nursing Students</a></li>
+        </ul>
+        <h3><u>The InnovaBio lab provides different lessons and hands-on experiences that are made by established staff, with others being made by Utah biotechnology companies that get the students to prepare for career paths</u></h3>
+        <img src="https://www.slcc.edu/stem/images/innovabiolab066.jpg">
+    </div>
+
+    <div id="content3" class="content"> <!-- Chemistry Section -->
+        <h2 style="color: red; font-size: 40px;">Chemistry</h2>
+        <img src="https://www.thoughtco.com/thmb/bcj-0Qw8kGp6JQPryxb6vrr5Cc4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-545286316-433dd345105e4c6ebe4cdd8d2317fdaa.jpg" width="750" height="500">
+        <h3><u>SLCC provides basic learning resources such as Khan Academy and interactive periodic tables to help students understand material better</u></h3>
+        <ul style="text-align: left;">
+            <li><a href="https://www.khanacademy.org/science/chemistry" rel="noopener" target="_blank">Khan Academy – Chemistry Basics</a></li>
+            <li><a href="http://www.americanelements.com/" rel="noopener" target="_blank">American Elements</a>&nbsp;– Interactive periodic table of the elements with information about each of the elements</li>
+            <li><a href="http://echem1a.cchem.berkeley.edu/" rel="noopener" target="_blank">Berkeley eChem – Online General Chemistry</a></li>
+            <li><a href="http://www.chemguide.co.uk/" rel="noopener" target="_blank">Chemguide – Helping you to understand Chemistry</a></li>
+            <li><a href="https://www.wpunj.edu/sec/vsec/exams_quizzes/CHEMEXAMgen.html" rel="noopener" target="_blank">William Paterson University – General and College Chemistry Exams and Quizzes</a></li>
+        </ul>
+    </div>
+
+    <div id="content4" class="content"> <!-- Physics Section -->
+        <h2 style="color:orange; font-size: 40px;">Physics</h2>
+        <img src="https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2020/08/albert-einstein-space-0827201.jpg" width="600" height="405">
+        <p style="font-size: 8px;">Thomas Jefferson ^^^</p>
+        <h3><u>SLCC does not have many online resources for students</u></h3>
+        <p>But they do provide tutors in case you need help</p>
+        <ul style="text-align: left;">
+            <li><a href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermochemistry/Calorimetry%3A_Measuring_Heats_of_Reactions" rel="noopener" target="_blank">Chemistry LibreTexts – Calorimetry: Measuring Heats of Reactions</a></li>
+            <li><a href="http://www.oberlin.edu/physics/dstyer/StudyTips.html" rel="noopener" target="_blank">Oberlin College</a>&nbsp;– Study Tips for Introductory Physics Students</li>
+        </ul>
+    </div>
+
+    <div id="content5" class="content"> <!-- Tutoring Section -->
+        <h2 style="font-size: 40px;">Tutoring</h2>
+        <img src="https://www.fullpotentialtutor.com/wp-content/uploads/2019/12/group-tutoring.jpg.webp">
+        <h3><u>SLCC provides tutors that are able to answer most questions in a broad field of research</u></h3>
+        <p>(Note that they do not provide private/personal tutors)</p>
+        <ul style="text-align: left;">
+            <li><a href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermochemistry/Calorimetry%3A_Measuring_Heats_of_Reactions" rel="noopener" target="_blank">Chemistry LibreTexts – Calorimetry: Measuring Heats of Reactions</a></li>
+            <li><a href="http://www.oberlin.edu/physics/dstyer/StudyTips.html" rel="noopener" target="_blank">Oberlin College</a>&nbsp;– Study Tips for Introductory Physics Students</li>
+            <li><a href="tutor.com">Tutor.com</a></li>
+        </ul>
+    </div>
+
+    <script>
+        showContent('cat')
+        function showContent(contentId) {
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            const activeContent = document.getElementById(contentId);
+            if (activeContent) {
+                activeContent.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
