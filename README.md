@@ -4,4 +4,4 @@ I made this webpage off the template that was provided by the [just-the-docs rep
 ## Purpose
 I wanted to make this webpage so that I could easily share notes and guides that I've made these past few months and so that I can get better at using both HTML and markdown
 
-To access, go to https://pizza2d1.github.com
+To access, go to https://pizza2d1.github.io
