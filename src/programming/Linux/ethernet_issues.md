@@ -1,4 +1,3 @@
-
 ---
 title: "Ethernet issues"
 parent: Linux

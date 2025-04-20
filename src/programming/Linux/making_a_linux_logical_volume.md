@@ -1,4 +1,3 @@
-
 ---
 title: "Making a linux logical volume"
 parent: Linux

@@ -1,4 +1,3 @@
-
 ---
 title: "YAML for Linux"
 parent: Linux

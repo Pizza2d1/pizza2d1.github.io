@@ -1,4 +1,3 @@
-
 ---
 title: "Running file issues on linux"
 parent: Linux

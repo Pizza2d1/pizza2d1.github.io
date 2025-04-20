@@ -1,4 +1,3 @@
-
 ---
 title: "Flashing drives"
 parent: Linux

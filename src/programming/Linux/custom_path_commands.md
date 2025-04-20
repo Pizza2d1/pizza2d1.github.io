@@ -1,4 +1,3 @@
-
 ---
 title: "Custom PATH commands"
 parent: Linux

@@ -1,4 +1,3 @@
-
 ---
 title: "Resize LVM"
 parent: Linux

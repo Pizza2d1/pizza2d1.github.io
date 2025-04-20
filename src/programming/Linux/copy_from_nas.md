@@ -1,4 +1,3 @@
-
 ---
 title: "Copy from NAS"
 parent: Linux

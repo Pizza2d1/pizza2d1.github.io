@@ -1,4 +1,3 @@
-
 ---
 title: "Linux command auto-completion"
 parent: Linux

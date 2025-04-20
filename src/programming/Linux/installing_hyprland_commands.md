@@ -1,4 +1,3 @@
-
 ---
 title: "Installing hyprland commands"
 parent: Linux

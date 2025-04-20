@@ -1,4 +1,3 @@
-
 ---
 title: "inotify events"
 parent: Linux
