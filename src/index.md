@@ -26,7 +26,7 @@ I hope you enjoy learning about the different things that I have collected here 
 >
 > This webpage is still a work in progress and they will be for the next few days, BUT, don't let that dicourage you from checking out what is already posted :3
 
-If you would like to download my class notes, you can find a download link at the bottom of the [Class Notes](https://pizza2d1.github.io/src/class_notes) page
+If you would like to download my class notes, you can find a download link on the [Class Notes](https://pizza2d1.github.io/src/class_notes) page
 <!-- You can go through an see what notes I've made by selecting the category on sidebar, and if you would like to download the notes yourself you can scroll down to the bottom and get both a html and markdown version of the page, which I find very useful as it allows you to put it right into your [Obsidian](https://obsidian.md) note-taking app -->
 
 ### License
