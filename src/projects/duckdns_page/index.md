@@ -20,5 +20,5 @@ I wanted to make a cool website using php, so I started working on it and then f
 - Get the website to 80% - 100% on [internet.nl](https://internet.nl/site/pizza2d1.duckdns.org/3477257)
 
 ### Preview
-![](https://pizza2d1.github.io/website_snapshot.png)
+![]({% link assets/images/website_snapshot.png %})
   

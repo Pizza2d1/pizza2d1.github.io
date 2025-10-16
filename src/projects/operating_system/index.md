@@ -25,6 +25,6 @@ What I want is to be able to create a working operating system that has:
 
 
 ### Preview
-![](https://pizza2d1.github.io/assets/images/qemu1.png)
+![]({% link assets/images/qemu1.png %})
   
 
