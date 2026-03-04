@@ -49,6 +49,3 @@ If you would like to make a copy of this webpage for your own use, I recommend u
 
 ### - **[About Me]({% link src/aboutme.md %})**
 ### - **[Projects]({% link src/projects/index.md %})**
-### - **[Notes]({% link src/notes/index.md %})**
-####  - **[Command Notes]({% link src/notes/programming.md %})**
-<!--### - **[Class Notes]({% link src/class_notes/index.md %})**-->
