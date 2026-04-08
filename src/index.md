@@ -58,4 +58,3 @@ I would love to have some help adding new guides and notes, so if you yourself w
 ### - **[Projects]({% link src/projects/index.md %})**
 ### - **[Notes]({% link src/notes/index.md %})**
 ####  - **[Command Notes]({% link src/notes/programming.md %})**
-### - **[Class Notes]({% link src/class_notes/index.md %})**
