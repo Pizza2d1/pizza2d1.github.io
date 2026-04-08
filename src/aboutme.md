@@ -5,6 +5,7 @@ nav_order: 2
 # About Me
 Sup guy, I'm Nathan
 ![Me and the robot]({% link assets/images/pfp.jpg %})
+
 ___
 
 I don't really know what to say in here, since most online portfolios are kinda just people putting __50% adept at php__ or __95% experienced in C#__, which always didn't really make sense since they are all just benchmarks that they rated themselves on, but I mean if it gets them to their dream career then I can't blame them.
@@ -16,7 +17,9 @@ I do enjoy programming quite a bit, I've been doing it for a couple years ever s
 I figure that learning multiple different languages will help, such as rust or javascript, but it will take time.
 
 I use neovim and linux btw :3
+
 ___
+
 ## Projects
 - ### Personal NAS
   - A while back my friends and I decided to make a combined server that would be able to hold a couple terabytes of data, including movies, games, and (non-sensitive) back-up data that could be accessed from our home networks.
