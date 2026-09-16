@@ -32,17 +32,17 @@ Where I will try to keep an up to date list of services that you can use on my s
 
 # Rstack (trusted only):
 ## [Radarr](https://radarr.teto.beer) [![Radarr Logo](../../../assets/images/radarr.png){: width="25" }](https://radarr.teto.beer)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fradarr.teto.beer)](https://radarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=http%3A%2F%2Fradarr.teto.beer)](https://radarr.teto.beer)
 ## [Sonarr](https://sonarr.teto.beer) [![Sonarr Logo](../../../assets/images/sonarr.png){: width="25" }](https://sonarr.teto.beer)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fsonarr.teto.beer)](https://sonarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=http%3A%2F%2Fsonarr.teto.beer)](https://sonarr.teto.beer)
 ## [Lidarr](https://lidarr.teto.beer) [![Lidarr Logo](../../../assets/images/lidarr.png){: width="25" }](https://lidarr.teto.beer)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Flidarr.teto.beer)](https://lidarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=http%3A%2F%2Flidarr.teto.beer)](https://lidarr.teto.beer)
 ## [qBittorrent Client](https://torrent.teto.beer) [![torrent.Logo](../../../assets/images/qbittorrent.png){: width="25" }](https://torrent.teto.beer)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Ftorrent.teto.beer)](https://torrent.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=http%3A%2F%2Ftorrent.teto.beer)](https://torrent.teto.beer)
 
 # Others:
 ## [Portal Runner Converter](https://convert.happylizard.me)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fconvert.happylizard.me)](https://convert.happylizard.me)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=http%3A%2F%2Fconvert.happylizard.me)](https://convert.happylizard.me)
 [Youtube Video](https://youtu.be/btUbcsTbVA8) [Github](https://github.com/p2r3/convert)
 ## [Happy Ripper](https://ethanis.gay)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fethanis.gay)](https://ethanis.gay)
