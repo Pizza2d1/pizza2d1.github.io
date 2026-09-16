@@ -49,3 +49,4 @@ If you would like to make a copy of this webpage for your own use, I recommend u
 
 ### - **[About Me]({% link src/aboutme.md %})**
 ### - **[Projects]({% link src/projects/index.md %})**
+### - **[Server News]({% link src/server_news/index.md %})**
