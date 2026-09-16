@@ -9,6 +9,7 @@ permalink: /server_news
 
 [Table of Contents](#table-of-contents){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Check out my other projects!](https://github.com/pizza2d1){: .btn .fs-5 .mb-4 .mb-md-0 .btn-green }
+[Links to website services!](https://github.com/pizza2d1){: .btn .fs-5 .mb-4 .mb-md-0 .btn-green }
 
 ---
 
@@ -19,6 +20,10 @@ permalink: /server_news
 > Quick Note
 >
 > If the website is down it is totally fine to contact me to let me know. I plan on having my services be used by more people in the future once I get a proper setup and would like to know how to fix issues that arise early in the server-management side of hobbies, which means quickly snuffing out issues
+
+
+
+
 
 
 ### Contact me!
