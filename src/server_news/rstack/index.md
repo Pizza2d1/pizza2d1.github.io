@@ -4,6 +4,7 @@ layout: home
 nav_order: 3
 description: "Rstack News"
 permalink: /server_news/gitea
+parent: Server News
 ---
 # Rstack Server News
 

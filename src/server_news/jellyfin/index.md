@@ -4,6 +4,7 @@ layout: home
 nav_order: 3
 description: "Jellyfin News"
 permalink: /server_news/gitea
+parent: Server News
 ---
 # Jellyfin Server News
 
