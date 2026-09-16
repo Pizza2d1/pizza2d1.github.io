@@ -23,28 +23,15 @@ permalink: /server_news
 
 
 
-
-
-
 ### Contact me!
-[![LinkedIn Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png){: width="20" }](https://www.linkedin.com/in/pizza2d1/)
+[![LinkedIn Logo](../../assets/images/linkedin.png){: width="20" }](https://www.linkedin.com/in/pizza2d1/)
 [LinkedIn](https://www.linkedin.com/in/pizza2d1/)
 
-[![Discord Logo](https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg){: width="20" }](https://discordapp.com/users/714918826831118436)
+[![Discord Logo](../../assets/images/discord.png){: width="20" }](https://discordapp.com/users/714918826831118436)
 [Discord](https://discordapp.com/users/714918826831118436)
 
-[![Github Logo](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg){: width="20" }](https://github.com/pizza2d1)
+[![Github Logo](../../assets/images/github.png){: width="20" }](https://github.com/pizza2d1)
 [Github](https://github.com/pizza2d1)
 
-[![Signal Logo](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Signal-Logo-Ultramarine_%282024%29.svg/1280px-Signal-Logo-Ultramarine_%282024%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){: width="20" }](https://signal.me/#eu/14nA-tBiLDlv3Z1DzDlmNSd_hpqwEk2EcjhmY0uWcjbTAQWx9NZGiJfkVOkMR4mS)
+[![Signal Logo](../../assets/images/signal.png){: width="20" }](https://signal.me/#eu/14nA-tBiLDlv3Z1DzDlmNSd_hpqwEk2EcjhmY0uWcjbTAQWx9NZGiJfkVOkMR4mS)
 [Signal](https://signal.me/#eu/14nA-tBiLDlv3Z1DzDlmNSd_hpqwEk2EcjhmY0uWcjbTAQWx9NZGiJfkVOkMR4mS)
-
-----
-
-
-## <u>Table of contents</u>
-
-### - **[Jellyfin]({% link src/server_news/jellyfin/index.md %})**
-### - **[Rstack]({% link src/server_news/rstack/index.md %})**
-### - **[Website]({% link src/server_news/website/index.md %})**
-### - **[Gitea]({% link src/server_news/gitea/index.md %})**
