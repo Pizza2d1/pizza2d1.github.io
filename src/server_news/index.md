@@ -9,7 +9,7 @@ permalink: /server_news
 
 [Table of Contents](#table-of-contents){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Check out my other projects!](https://github.com/pizza2d1){: .btn .fs-5 .mb-4 .mb-md-0 .btn-green }
-[Links to website services!](https://github.com/pizza2d1){: .btn .fs-5 .mb-4 .mb-md-0 .btn-green }
+[Links to website services!](https://pizza2d1.github.io/server_links){: .btn .fs-5 .mb-4 .mb-md-0 .btn-green }
 
 ---
 

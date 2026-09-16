@@ -3,6 +3,7 @@ title: Server Links
 layout: home
 nav_order: 3
 permalink: /server_links
+parent: Server News
 ---
 # Server Links
 
@@ -18,6 +19,7 @@ Where I will try to keep an up to date list of services that you can use on my s
 >
 > Not all these services are publicly usable, as they require a level of trust, if you want to get access to some of these services, just make sure to contact me first
 
+
 [![Discord Logo](https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg){: width="20" }](https://discordapp.com/users/714918826831118436)
 [Discord](https://discordapp.com/users/714918826831118436)
 
@@ -26,7 +28,21 @@ Where I will try to keep an up to date list of services that you can use on my s
 
 
 # Media streaming:
-Jellyfin
+### [Jellyfin](https://jellyfin.happylizard.me)
+[![Jellyfin Logo](../../../assets/images/jellyfin.png){: width="20" }](https://jellyfin.happylizard.me)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fjellyfin.happylizard.me)](https://jellyfin.happylizard.me)
 
+# File server:
+### [Copyparty 🎊](https://copyparty.happylizard.me)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fcopyparty.happylizard.me)](https://copyparty.happylizard.me)
 
+# Rstack (trusted only):
+### [Radarr](https://radarr.teto.beer)
+[![Radarr Logo](../../../assets/images/radarr.png){: width="20" }](https://radarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fradarr.teto.beer)](https://radarr.teto.beer)
+### [Sonarr](https://sonarr.teto.beer)
+[![Sonarr Logo](../../../assets/images/sonarr.png){: width="20" }](https://sonarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fsonarr.teto.beer)](https://sonarr.teto.beer)
+### [Lidarr](https://lidarr.teto.beer)
+[![Lidarr Logo](../../../assets/images/lidarr.png){: width="20" }](https://lidarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Flidarr.teto.beer)](https://lidarr.teto.beer)
