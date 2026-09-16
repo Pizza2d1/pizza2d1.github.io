@@ -18,17 +18,20 @@ Where I will try to keep an up to date list of services that you can use on my s
 # Media streaming:
 ## [Jellyfin](https://jellyfin.happylizard.me) [![Jellyfin Logo](../../../assets/images/jellyfin.png){: width="25" }](https://jellyfin.happylizard.me)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fjellyfin.happylizard.me)](https://jellyfin.happylizard.me)
-[Jellyfin Website](https://jellyfin.org/)
+
+[Official Jellyfin Website](https://jellyfin.org/)
 
 # File server:
 ## [Copyparty 🎊](https://copyparty.happylizard.me)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fcopyparty.happylizard.me)](https://copyparty.happylizard.me)
+
 [Copyparty Github](https://github.com/9001/copyparty)
 
 # Git repositories:
 ## [Gitea](https://gitea.happylizard.me) [![Gitea Logo](../../../assets/images/gitea.png){: width="25" }](https://gitea.happylizard.me)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fgitea.happylizard.me)](https://gitea.happylizard.me)
-[Gitea Website](https://about.gitea.com/)
+
+[Official Gitea Website](https://about.gitea.com/)
 
 # Rstack (trusted only):
 ## [Radarr](https://radarr.teto.beer) [![Radarr Logo](../../../assets/images/radarr.png){: width="25" }](https://radarr.teto.beer)
@@ -43,6 +46,7 @@ Where I will try to keep an up to date list of services that you can use on my s
 # Others:
 ## [Portal Runner Converter](https://convert.happylizard.me)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=http%3A%2F%2Fconvert.happylizard.me)](https://convert.happylizard.me)
+
 [Youtube Video](https://youtu.be/btUbcsTbVA8) [Github](https://github.com/p2r3/convert)
 ## [Happy Ripper](https://ethanis.gay)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%20Status&url=https%3A%2F%2Fethanis.gay)](https://ethanis.gay)
