@@ -3,7 +3,7 @@ title: Jellyfin Server News
 layout: home
 nav_order: 3
 description: "Jellyfin News"
-permalink: /server_news/gitea
+permalink: /server_news/jellyfin
 parent: Server News
 ---
 # Jellyfin Server News

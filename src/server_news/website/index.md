@@ -3,7 +3,7 @@ title: Website Server News
 layout: home
 nav_order: 3
 description: "Website News"
-permalink: /server_news/gitea
+permalink: /server_news/website
 parent: Server News
 ---
 # Website Server News
