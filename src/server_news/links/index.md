@@ -28,21 +28,23 @@ Where I will try to keep an up to date list of services that you can use on my s
 
 
 # Media streaming:
-### [Jellyfin](https://jellyfin.happylizard.me)
-[![Jellyfin Logo](../../../assets/images/jellyfin.png){: width="20" }](https://jellyfin.happylizard.me)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fjellyfin.happylizard.me)](https://jellyfin.happylizard.me)
+## [Jellyfin](https://jellyfin.happylizard.me) [![Jellyfin Logo](../../../assets/images/jellyfin.png){: width="30" }](https://jellyfin.happylizard.me)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%30Status&url=https%3A%2F%2Fjellyfin.happylizard.me)](https://jellyfin.happylizard.me) [Jellyfin Website](https://jellyfin.org/)
 
 # File server:
-### [Copyparty 🎊](https://copyparty.happylizard.me)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fcopyparty.happylizard.me)](https://copyparty.happylizard.me)
+## [Copyparty 🎊](https://copyparty.happylizard.me)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%30Status&url=https%3A%2F%2Fcopyparty.happylizard.me)](https://copyparty.happylizard.me)
 
 # Rstack (trusted only):
-### [Radarr](https://radarr.teto.beer)
-[![Radarr Logo](../../../assets/images/radarr.png){: width="20" }](https://radarr.teto.beer)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fradarr.teto.beer)](https://radarr.teto.beer)
-### [Sonarr](https://sonarr.teto.beer)
-[![Sonarr Logo](../../../assets/images/sonarr.png){: width="20" }](https://sonarr.teto.beer)
-[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fsonarr.teto.beer)](https://sonarr.teto.beer)
-### [Lidarr](https://lidarr.teto.beer)
-[![Lidarr Logo](../../../assets/images/lidarr.png){: width="20" }](https://lidarr.teto.beer)
+## [Radarr](https://radarr.teto.beer) [![Radarr Logo](../../../assets/images/radarr.png){: width="30" }](https://radarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%30Status&url=https%3A%2F%2Fradarr.teto.beer)](https://radarr.teto.beer)
+## [Sonarr](https://sonarr.teto.beer) [![Sonarr Logo](../../../assets/images/sonarr.png){: width="30" }](https://sonarr.teto.beer)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Site%30Status&url=https%3A%2F%2Fsonarr.teto.beer)](https://sonarr.teto.beer)
+## [Lidarr](https://lidarr.teto.beer) [![Lidarr Logo](../../../assets/images/lidarr.png){: width="30" }](https://lidarr.teto.beer)
 [![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Flidarr.teto.beer)](https://lidarr.teto.beer)
+
+# Others:
+## [Portal Runner Converter](https://convert.happylizard.me)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fconvert.happylizard.me)](https://convert.happylizard.me)
+## [Happy Ripper](https://ethanis.gay)
+[![a](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=green&up_message=up&label=Jellyfin%20Site&url=https%3A%2F%2Fethanis.gay)](https://ethanis.gay)
