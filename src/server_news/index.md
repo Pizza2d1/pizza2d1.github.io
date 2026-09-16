@@ -4,12 +4,14 @@ layout: home
 nav_order: 2
 description: "Where I will detail what I am doing with my website"
 permalink: /server_news
+has_toc: false
 ---
 # Server News
 
-[Table of Contents](#table-of-contents){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Links to website services!](https://pizza2d1.github.io/server_links){: .btn .fs-5 .mb-4 .mb-md-0 .btn-purple }
 [Check out my other projects!](https://github.com/pizza2d1){: .btn .fs-5 .mb-4 .mb-md-0 .btn-green }
-[Links to website services!](https://pizza2d1.github.io/server_links){: .btn .fs-5 .mb-4 .mb-md-0 .btn-green }
+
+[Table of Contents](#table-of-contents){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
@@ -38,3 +40,13 @@ permalink: /server_news
 
 
 I currently don't really have an easy way to update this quite yet, since I am mostly just using the Jekyll markdown files for editing these, but eventually I will try and have it work the same way that I previously had with my RSS feed where I can just type into a new text file, run a command and have it published to the website all formatted and pretty
+
+___
+
+## <u>Table of contents</u>
+
+### - **[Website News]({% link src/server_news/website/index.md %})**
+### - **[Gitea News]({% link src/server_news/gitea/index.md %})**
+### - **[Jellyfin News]({% link src/server_news/jellyfin/index.md %})**
+### - **[Rstack News]({% link src/server_news/rstack/index.md %})**
+### - **[Server Links]({% link src/server_news/links/index.md %})**
