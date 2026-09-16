@@ -12,6 +12,6 @@ A list of updates that I add when upgrading or adding things to the torrenting r
 
 ---
 
-### Current updates:
+### Latest update:
 
 None (this page is still new)

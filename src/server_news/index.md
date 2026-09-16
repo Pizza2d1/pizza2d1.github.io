@@ -35,3 +35,6 @@ permalink: /server_news
 
 [![Signal Logo](../../assets/images/signal.png){: width="20" }](https://signal.me/#eu/14nA-tBiLDlv3Z1DzDlmNSd_hpqwEk2EcjhmY0uWcjbTAQWx9NZGiJfkVOkMR4mS)
 [Signal](https://signal.me/#eu/14nA-tBiLDlv3Z1DzDlmNSd_hpqwEk2EcjhmY0uWcjbTAQWx9NZGiJfkVOkMR4mS)
+
+
+I currently don't really have an easy way to update this quite yet, since I am mostly just using the Jekyll markdown files for editing these, but eventually I will try and have it work the same way that I previously had with my RSS feed where I can just type into a new text file, run a command and have it published to the website all formatted and pretty

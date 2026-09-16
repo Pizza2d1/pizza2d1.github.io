@@ -9,8 +9,9 @@ parent: Server News
 # Website Server News
 
 A list of updates that I add when upgrading or adding things to the front-facing website
+
 ---
 
-### Current updates:
+### Latest update:
 
 None (this page is still new)
