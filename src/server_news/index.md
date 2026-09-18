@@ -41,6 +41,19 @@ has_toc: false
 
 I currently don't really have an easy way to update this quite yet, since I am mostly just using the Jekyll markdown files for editing these, but eventually I will try and have it work the same way that I previously had with my RSS feed where I can just type into a new text file, run a command and have it published to the website all formatted and pretty
 
+
+## MAJOR NEWS
+### The server's way of accessing network filesystems will change very soon from [SAMBA](https://www.samba.org/) to [SSHFS](https://github.com/libfuse/sshfs), allowing for accurate file permissions and faster bandwidth between server cluster devices.
+
+### Due to this, many services that were previously run on NAS1 will soon be ran on the main laptop server, including [copyparty](https://copyparty.happylizard.me), [immich](https://immich.happylizard.me), and [happy-ripper](https://happy-ripper.happylizard.me).
+
+### There will also be a change in how backups are done, previously the server was being backed up "syncronously" with the main server's media files, where the server would periodically just send a rsync command to have a perfect filesystem copy on the other NAS2. This was stupid, very stupid and dumb and caused literal TERABYTES of storage to be wasted.
+
+### We are now using a OSS backup service called [BorgBackup](https://www.borgbackup.org/) (rather than [restic](https://restic.net/)/[duplicity](https://duplicity.gitlab.io/)), for it's reliability and familiarity, and because it includes de-duplication, incremental backups, and FUSE restoring (my personal favourite)
+
+### The server cluster may also grow in coming weeks, as I plan on adding a broken laptop to the cluster for specifically rstack docker containers, so that I can stop using my NAS1's CPU to max whenever we download online.
+
+
 ___
 
 ## <u>Table of contents</u>
