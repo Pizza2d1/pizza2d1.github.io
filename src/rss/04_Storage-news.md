@@ -1,4 +1,5 @@
 ---
+parent: RSS feed
 title: Storage News
 layout: home
 nav_order: 2

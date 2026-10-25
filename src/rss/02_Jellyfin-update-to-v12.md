@@ -1,4 +1,5 @@
 ---
+parent: RSS feed
 title: Jellyfin updating to 12.0
 layout: home
 nav_order: 2

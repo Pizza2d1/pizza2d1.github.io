@@ -1,4 +1,5 @@
 ---
+parent: RSS feed
 title: Testing out RSS
 layout: home
 nav_order: 2
