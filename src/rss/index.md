@@ -7,3 +7,5 @@ permalink: /rss/
 ---
 
 # RSS blog
+
+The table of contents below is in chronological order, starting from top to bottom. So for the earliest news, click the lowest link
