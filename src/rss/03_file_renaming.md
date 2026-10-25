@@ -1,3 +1,9 @@
+---
+title: File Organization
+layout: home
+nav_order: 2
+---
+
 # File organization
 The server media files have now been updated to be standardized and better organized so that when browsing and indexing files they are easier to identify.
 

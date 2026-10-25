@@ -1,3 +1,9 @@
+---
+title: Storage News
+layout: home
+nav_order: 2
+---
+
 # Storage News
 
 ### Running out

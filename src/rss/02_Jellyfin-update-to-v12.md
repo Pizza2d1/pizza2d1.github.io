@@ -1,3 +1,9 @@
+---
+title: Jellyfin updating to 12.0
+layout: home
+nav_order: 2
+---
+
 # Jellyfin server is updating to 12.0
 The newest version of Jellyfin is out and with the appeal of better performace and sercurity patches, I really wanted to update to it asap, but the first time I did it, everything broke and I didn't have a proper backup of the jellyfin instance so a lot of data was lost and I had to go back to regular 10.11.11, which was fine since it still had compatibility with third-party apps like JellyMusicDiscovery + ytmusicserver.
 

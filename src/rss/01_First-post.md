@@ -1,3 +1,9 @@
+---
+title: Testing out RSS
+layout: home
+nav_order: 2
+---
+
 # Testing out RSS
 This is the first rss bit that Im putting out that should be able to just be converted to xml format, but we'll see
 
